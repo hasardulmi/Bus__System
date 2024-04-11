@@ -30,6 +30,7 @@ public class login_interface_2 extends javax.swing.JFrame {
         jToggleButton2 = new javax.swing.JToggleButton();
         jToggleButton1 = new javax.swing.JToggleButton();
         jLabel2 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -72,7 +73,17 @@ public class login_interface_2 extends javax.swing.JFrame {
         jLabel2.setText("BUS MANAGEMENT SYSTEM");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, -1, -1));
 
+        jButton1.setBackground(new java.awt.Color(0, 102, 102));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("BACK");
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, -1, -1));
+
+        jLabel1.setBackground(new java.awt.Color(0, 102, 102));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/5570834.jpg"))); // NOI18N
+        jLabel1.setText("BACK");
         jLabel1.setMaximumSize(new java.awt.Dimension(800, 500));
         jLabel1.setMinimumSize(new java.awt.Dimension(800, 500));
         jLabel1.setPreferredSize(new java.awt.Dimension(800, 500));
@@ -127,6 +138,7 @@ public class login_interface_2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
